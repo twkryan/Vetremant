@@ -3,137 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <title>Vetrement - Fashion News</title>
-
+    <title>Vetremant - Fashion News</title>
 </head>
+
 <body>
-    <header>
-        <img src="./assets-images/symbol.svg" alt="Logo do site de notícias Vetrement" width="100" height="100">
-
+    <header class="header-desktop">
+        <img src="./assets-images/symbol1.svg" alt="Símbolo do site de notícias Vetrement"">
+        <a href="index.html">
+            <img src="./assets-images/logo1.svg" alt="Nome do site de notícias Vetrement">
+        </a>
         <button>
-            <img src="./assets-images/logo.svg" alt="Nome do site de notícias Vetrement" width="100" height="100">
+            <img src="./assets-images/icon-menu-hamburguer 1.svg" alt="Ícone de menu hambúrguer">
         </button>
 
-        <button>
-            <img src="./assets-images/icon-menu-hamburguer.svg" alt="Ícone de menu hambúrguer" width="50" height="50">
-        </button>
+        <nav>
+            <a href="#secao1">Home</a>
+            <a href="#secao2">Destaques</a>
+            <a href="#secao3">Novidades</a>
+        </nav>
     </header>
 
-    <nav class="division"></nav>
+    <div class="container">>
 
-    <main>
-        <section>
-           <a href="#">
-            <img src="./assets-images/destaques/comme-des-garçons/comme-des-garcons-img1.png" alt="Imagem destaque da Comme des Garçons" width="620" height="840">
-           </a>
-           <a href="#"><h1>Comme des garçons inaugura sua primeira loja no Brasil</h1></a>
-           <p>A icônica marca japonesa, fundada por Rei Kawakubo, abrirá sua primeira loja na América do Sul em junho de 2025 no Shopping Iguatemi São Paulo</p>
-           <hr>
-        </section>
+        <main>
+            <section class="primeira-secao" id="secao1">
+                <div class="post-principal">
+                    <a href="#">
+                        <img src="./assets-images/destaques/comme-des-garçons/comme-des-garcons-img1.png" alt="Imagem destaque da Comme des Garçons">
+                    </a>
+                    <div class="texto-post-principal">
+                        <a href="#">
+                        <h1>Comme des garçons inaugura sua primeira loja no Brasil</h1>
+                        </a>
+                        <p>A icônica marca japonesa, fundada por Rei Kawakubo, abrirá sua primeira loja na América do Sul em junho de 2025 no Shopping Iguatemi São Paulo</p>
+                        <hr>
+                    </div>
+                </div>
+            </section>
 
-        <nav class="division"></nav>
+            <nav class="divisao"></nav>
 
-        <section>
-            <h1>destaques</h1>
+            <section class="segunda-secao" id="secao2">
+                <h1>DESTAQUES</h1>
+                <hr>
 
-            <div>
-                <a href="#">
-                    <img src="./assets-images/destaques/pierpaolo/pierpaolo img1.png" alt="Imagem destaque de Pierpaolo Piccioli" width="620" height="840">
+                <div class="destaques-grid">
+                    <div class="destaque-principal">
+                        <a href="#">
+                            <img src="./assets-images/destaques/pierpaolo/pierpaolo img1.png" alt="Imagem destaque de Pierpaolo Piccioli">
+                        </a>
+                        <div class="texto-destaque-principal">
+                            <a href="#">
+                                <h2>Pierpaolo Piccioli é o novo diretor criativo da Balenciaga</h2>
+                            </a>
+                            <p>O estilista italiano deixou a direção criativa da Valentino em 2024 e, a partir de 10 de julho, assume na Balenciaga o cargo que era de Demna</p>
+                        </div>
+                    </div>
+
+                    <div class="destaques-secundarios">
+
+                        <div class="destaque2">
+                        <a href="#">
+                            <img src="./assets-images/destaques/denma/denma img1.png" alt="Imagem destaque de Demna">
+                        </a>
+                        <div class="texto-destaque2">
+                            <a href="#">
+                                <h2>Demna é o novo<br>diretor artístico<br>da gucci</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="destaque3">
+                        <a href="#">
+                            <img src="./assets-images/destaques/armani/armani img1.png" alt="Imagem destaque da Armani">
+                        </a>
+                        <div class="texto-destaque3">
+                            <a href="#">
+                                <h2>Giorgio Armani,<br>inverno 2025<br>masculino</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="destaque4">
+                        <a href="#">
+                            <img src="./assets-images/destaques/piet/piet img1.jpg" alt="Imagem destaque da PIET">
+                        </a>
+                        <div class="texto-destaque4">
+                            <a href="#">
+                                <h2>Pedro Andrade leva a<br>PIET ao estádio do<br>Pacaembu e fecha a<br>SPFW N59</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="destaque5">
+                        <a href="#">
+                            <img src="./assets-images/destaques/shein/shein img1.png" alt="Imagem destaque da Shein">
+                        </a>
+                        <div class="texto-destaque4">
+                            <a href="#">
+                                <h2>Shein com aumento<br>de 13,7% nas emissões<br>de transporte<br>em 2024</h2>
+                            </a>
+                        </div>
                     
-                    <div>
-                        <h2>Pierpaolo Piccioli é o novo diretor criativo da Balenciaga</h2>
-                        <p>O estilista italiano deixou a direção criativa da Valentino em 2024 e, a partir de 10 de julho, assume na Balenciaga o cargo que era de Demna</p>
                     </div>
-                </a>
-            </div>
 
-            <div>
-                <a href="#">
-                    <img src="./assets-images/destaques/denma/denma img1.png" alt="Imagem destaque de Denma" width="251px" height="340px">
-                    <div>
-                        <h2>Demna é o novo diretor artístico da gucci</h2>
+                </div>
+            </section>
+
+            <nav class="divisao"></nav>
+
+            <section class="terceira-secao" id="secao3">
+                <h1>NOVIDADES</h1>
+                <hr>
+
+                <div class="novidades-grid">
+
+                    <div class="novidade1">
+                        <a href="#">
+                            <img src="./assets-images/novidades/maria-antonieta/dima img1.png" alt="Imagem destaque do Diamante">
+                        </a>
+                        <div class="texto-novidade1">
+                            <a href="#">
+                                <h2>Raro diamante de Maria Antonieta é vendido por R$77 milhões</h2>
+                            </a>
+                            <p>Um diamante rosa de 10.38 quilates, que supostamente pertenceu à rainha da França, foi leiloado em Nova York na última terça-feira (17/06)</p>
+                        </div>
                     </div>
-                </a>
-            </div>
 
-            <div>
-                <a href="#">
-                    <img src="./assets-images/destaques/armani/armani img1.png" alt="Imagem destaque de Giorgio Armani" width="251px" height="340px">
-                    <div>
-                        <h2>Giorgio Armani, inverno 2025 masculino</h2>
+                    <div class="novidade2">
+                        <a href="#">
+                            <img src="./assets-images/novidades/puma/puma img1.png" alt="Imagem destaque da Puma">
+                        </a>
+                        <div class="texto-novidade2">
+                            <a href="#">
+                                <h2>Puma relança o clássico Speedcat Archive em novas cores</h2>
+                            </a>
+                            <p>Puma relança o clássico Speedcat Archive em novas cores com design premium e celebrando 25 anos, juntando automobilismo e streetwear</p>
+                        </div>
                     </div>
-                </a>
-            </div>
 
-            <div>
-                <a href="#">
-                    <img src="./assets-images/destaques/piet/piet img1.jpg" alt="Imagem destaque da Piet" width="251px" height="340px">
-                    <div>
-                        <h2>Pedro Andrade leva a PIET ao estádio do Pacaembu e fecha a SPFW N59</h2>
+                    <div class="novidade3">
+                        <a href="#">
+                            <img src="./assets-images/novidades/hermes/hermes img1.png" alt="Imagem destaque da Hermès">
+                        </a>
+                        <div class="texto-novidade3">
+                            <a href="#">
+                                <h2>Hermès<br>A/W<br>2025 em<br>Xangai</h2>
+                            </a>
+                            <p>A Hermès realizou um evento único à beira do rio Huangpu para sua coleção outono/inverno 2025</p>
+                        </div>
                     </div>
-                </a>
-            </div>
 
-            <div>
-                <a href="#">
-                    <img src="./assets-images/destaques/shein/shein img1.png" alt="Imagem destaque da Shein" width="251px" height="340px">
-                    <div>
-                        <h2>Shein com aumento de 13,7 % nas emissões de transporte em 2024</h2>
+                    <div class="novidade4">
+                        <a href="#">
+                            <img src="./assets-images/novidades/dior/dior img1.png" alt="Imagem destaque do Diamante">
+                        </a>
+                        <div class="texto-novidade4">
+                            <a href="#">
+                                <h2>Dior,<br>pre-<br>fall<br>2025 </h2>
+                            </a>
+                            <p>Com desfile em Quioto, no Japão, Maria Grazia Chiuri resgata a relação da Dior com o país.)</p>
+                        </div>
                     </div>
-                </a>
-            </div>
 
-        </section>
+                </div>
+            </section>
+        </main>
+    </div>
 
-        <nav class="division"></nav>
-
-        <section>
-            <h1>Novidades</h1>
-            <hr>
-            
-            <div>
-                <a href="#">
-                    <img src="./assets-images/novidades/maria-antonieta/dima img1.png" alt="Imagem novidades do Diamante" width="230px"
-                    height="311px">
-                    <div>
-                        <h2>Raro diamante de Maria Antonieta é vendido por R$77 milhões</h2>
-                </a>
-                        <p>Um diamante rosa de 10.38 quilates, que supostamente pertenceu à rainha da França, foi leiloado em Nova York na última terça-feira (17/06)</p>
-                    </div>
-            </div>
-
-            <div>
-                <a href="#">
-                    <img src="./assets-images/novidades/hermes/hermes img1.png" alt="Imagem novidades da Hermès" width="230px" height="311px">
-                    <div>
-                        <h2>Hermès A/W 2025 em Xangai</h2>
-                </a>
-                        <p>A Hermès realizou um evento único à beira do rio Huangpu para sua coleção outono/inverno 2025</p>
-                    </div>
-            </div>
-
-            <div>
-                <a href="#">
-                    <img src="./assets-images/novidades/puma/puma img1.png" alt="Imagem novidades da Puma" width="230px" height="311px">
-                    <div>
-                        <h2>Puma relança o clássico Speedcat Archive em novas cores</h2>
-                </a>
-                        <p>Puma relança o clássico Speedcat Archive em novas cores com design premium e celebrando 25 anos, juntando automobilismo e streetwear</p>
-                    </div>
-            </div>
-
-            <div>
-                <a href="#">
-                    <img src="./assets-images/novidades/dior/dior img1.png" alt="Imagem novidades da Dior" width="230px" height="311px">
-                    <div>
-                        <h2>Dior, pre-fall 2025 </h2>
-                </a>
-                        <p>Com desfile em Quioto, no Japão, Maria Grazia Chiuri resgata a relação da Dior com o país.</p>
-                    </div>
-            </div>
-
-        </section>
-    </main>
+    <footer>
+        <div class="footer-logos">
+                <img src="./assets-images/symbol1.svg" alt="Símbolo para footer do site de notícias Vetrement">
+                <img src="./assets-images/logo1.svg" alt="Logo para footer do site de notícias Vetrement">
+        </div>
+        <p>© Vetremant MMXXV – Moda com propósito. Todos os direitos reservados.</p>
+            <a href="#">FALE CONOSCO</a>
+    </footer>
 </body>
 </html>
