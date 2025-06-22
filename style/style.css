@@ -6,13 +6,24 @@
     font-family: "Poppins", sans-serif;
 }
 
-:root {
+:root{
     --white: #FFFFFF;
     --black: #000000;
     --gray: #F2F2F2;
     --dark-blue: #00001A;
 }
 
+
+body.escurecer::before{
+    content: "";
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 26, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 
 .header-desktop{
     height: 6.5rem;
@@ -24,14 +35,50 @@
     padding: 1.5rem 1rem;
     position: fixed;
     top: 0;
-    left: 0;
-    z-index: 999;
+    z-index: 998;
 }
 
 .header-desktop button {
     border: none;
     background: none;
+    width: fit-content;
 }
+
+.header-desktop nav{
+    position: fixed;
+    background-color: var(--white);
+    right: -100rem;
+    top: 0;
+    height: 100vh;
+    width: 33.1875rem;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.7rem;
+    gap: 9rem;
+    text-align: center;
+
+    transition: 0.7s;
+}
+
+.header-desktop nav.abrir{
+    right: 0;
+}
+
+.header-desktop nav button{
+    align-self: flex-end;
+    margin-bottom: 1.44rem;
+}
+
+.header-desktop nav a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: 400rem;
+    text-transform: uppercase;
+}
+
 
 .container{
     max-width: 1510px;

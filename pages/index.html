@@ -8,34 +8,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../js/script.js" defer></script>
     <title>Vetremant - Fashion News</title>
 </head>
 
 <body>
     <header class="header-desktop">
-        <img src="./assets-images/symbol1.svg" alt="Símbolo do site de notícias Vetrement"">
+        <img src="../assets-images/symbol1.svg" alt="Símbolo do site de notícias Vetrement"">
         <a href="index.html">
-            <img src="./assets-images/logo1.svg" alt="Nome do site de notícias Vetrement">
+            <img src="../assets-images/logo1.svg" alt="Nome do site de notícias Vetrement">
         </a>
         <button>
-            <img src="./assets-images/icon-menu-hamburguer 1.svg" alt="Ícone de menu hambúrguer">
+            <img src="../assets-images/icon-menu-hamburguer 1.svg" alt="Ícone de menu hambúrguer">
         </button>
 
         <nav>
-            <a href="#secao1">Home</a>
+            <button>
+                <img src="../assets-images/cancel.svg" alt="Ícone de X para fechar o menu">
+            </button>
+            <a href="#home">Home</a>
             <a href="#secao2">Destaques</a>
             <a href="#secao3">Novidades</a>
         </nav>
     </header>
 
-    <div class="container">>
+    <div class="container" id="home">>
 
         <main>
-            <section class="primeira-secao" id="secao1">
+            <section class="primeira-secao">
                 <div class="post-principal">
                     <a href="#">
-                        <img src="./assets-images/destaques/comme-des-garçons/comme-des-garcons-img1.png" alt="Imagem destaque da Comme des Garçons">
+                        <img src="../assets-images/destaques/comme-des-garçons/comme-des-garcons-img1.png" alt="Imagem destaque da Comme des Garçons">
                     </a>
                     <div class="texto-post-principal">
                         <a href="#">
@@ -47,16 +51,19 @@
                 </div>
             </section>
 
+
+            <div id="secao2"></div>
             <nav class="divisao"></nav>
 
-            <section class="segunda-secao" id="secao2">
+
+            <section class="segunda-secao">
                 <h1>DESTAQUES</h1>
                 <hr>
 
                 <div class="destaques-grid">
                     <div class="destaque-principal">
                         <a href="#">
-                            <img src="./assets-images/destaques/pierpaolo/pierpaolo img1.png" alt="Imagem destaque de Pierpaolo Piccioli">
+                            <img src="../assets-images/destaques/pierpaolo/pierpaolo img1.png" alt="Imagem destaque de Pierpaolo Piccioli">
                         </a>
                         <div class="texto-destaque-principal">
                             <a href="#">
@@ -70,7 +77,7 @@
 
                         <div class="destaque2">
                         <a href="#">
-                            <img src="./assets-images/destaques/denma/denma img1.png" alt="Imagem destaque de Demna">
+                            <img src="../assets-images/destaques/denma/denma img1.png" alt="Imagem destaque de Demna">
                         </a>
                         <div class="texto-destaque2">
                             <a href="#">
@@ -81,7 +88,7 @@
 
                     <div class="destaque3">
                         <a href="#">
-                            <img src="./assets-images/destaques/armani/armani img1.png" alt="Imagem destaque da Armani">
+                            <img src="../assets-images/destaques/armani/armani img1.png" alt="Imagem destaque da Armani">
                         </a>
                         <div class="texto-destaque3">
                             <a href="#">
@@ -92,7 +99,7 @@
 
                     <div class="destaque4">
                         <a href="#">
-                            <img src="./assets-images/destaques/piet/piet img1.jpg" alt="Imagem destaque da PIET">
+                            <img src="../assets-images/destaques/piet/piet img1.jpg" alt="Imagem destaque da PIET">
                         </a>
                         <div class="texto-destaque4">
                             <a href="#">
@@ -103,7 +110,7 @@
 
                     <div class="destaque5">
                         <a href="#">
-                            <img src="./assets-images/destaques/shein/shein img1.png" alt="Imagem destaque da Shein">
+                            <img src="../assets-images/destaques/shein/shein img1.png" alt="Imagem destaque da Shein">
                         </a>
                         <div class="texto-destaque4">
                             <a href="#">
@@ -114,11 +121,13 @@
                     </div>
 
                 </div>
+                <div id="secao3"></div>
             </section>
+
 
             <nav class="divisao"></nav>
 
-            <section class="terceira-secao" id="secao3">
+            <section class="terceira-secao">
                 <h1>NOVIDADES</h1>
                 <hr>
 
@@ -126,7 +135,7 @@
 
                     <div class="novidade1">
                         <a href="#">
-                            <img src="./assets-images/novidades/maria-antonieta/dima img1.png" alt="Imagem destaque do Diamante">
+                            <img src="../assets-images/novidades/maria-antonieta/dima img1.png" alt="Imagem destaque do Diamante">
                         </a>
                         <div class="texto-novidade1">
                             <a href="#">
@@ -138,7 +147,7 @@
 
                     <div class="novidade2">
                         <a href="#">
-                            <img src="./assets-images/novidades/puma/puma img1.png" alt="Imagem destaque da Puma">
+                            <img src="../assets-images/novidades/puma/puma img1.png" alt="Imagem destaque da Puma">
                         </a>
                         <div class="texto-novidade2">
                             <a href="#">
@@ -150,7 +159,7 @@
 
                     <div class="novidade3">
                         <a href="#">
-                            <img src="./assets-images/novidades/hermes/hermes img1.png" alt="Imagem destaque da Hermès">
+                            <img src="../assets-images/novidades/hermes/hermes img1.png" alt="Imagem destaque da Hermès">
                         </a>
                         <div class="texto-novidade3">
                             <a href="#">
@@ -162,7 +171,7 @@
 
                     <div class="novidade4">
                         <a href="#">
-                            <img src="./assets-images/novidades/dior/dior img1.png" alt="Imagem destaque do Diamante">
+                            <img src="../assets-images/novidades/dior/dior img1.png" alt="Imagem destaque do Diamante">
                         </a>
                         <div class="texto-novidade4">
                             <a href="#">
@@ -179,8 +188,8 @@
 
     <footer>
         <div class="footer-logos">
-                <img src="./assets-images/symbol1.svg" alt="Símbolo para footer do site de notícias Vetrement">
-                <img src="./assets-images/logo1.svg" alt="Logo para footer do site de notícias Vetrement">
+                <img src="../assets-images/symbol1.svg" alt="Símbolo para footer do site de notícias Vetrement">
+                <img src="../assets-images/logo1.svg" alt="Logo para footer do site de notícias Vetrement">
         </div>
         <p>© Vetremant MMXXV – Moda com propósito. Todos os direitos reservados.</p>
             <a href="#">FALE CONOSCO</a>
