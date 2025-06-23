@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .header-desktop {
+        padding: 1rem 1.5rem;
+    }
+
+    .header-desktop > img:first-child {
+        width: 5rem;
+        height: auto;
+    }
+
+    .header-desktop > a > img {
+        width: 190px;
+    }
+    
+    .header-desktop nav {
+        width: 85vw;
+    }
+
+    .header-desktop nav a {
+        font-size: 2rem;
+        gap: 7rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem 1.5rem;
+    }
+
+    .footer-logos img:first-child{
+        width: 4.5rem;
+        height: auto;
+    }
+
+    .footer-logos img:last-child{
+        width: 10rem;
+        height: auto;
+    }
+
+    .post-principal,
+    .destaques-grid,
+    .destaques-secundarios,
+    .novidades-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .post-principal h1 {
+        font-size: 2.2rem;
+    }
+
+    .segunda-secao h1 {
+        font-size: 2.8rem;
+    }
+
+    .terceira-secao h1 {
+        font-size: 2.5rem;
+    }
+
+    .texto-destaque-principal h2 {
+        font-size: 1.8rem;
+    }
+
+    .primeira-secao img,
+    .destaque-principal img,
+    .destaque2 img, .destaque3 img, .destaque4 img, .destaque5 img,
+    .novidades-grid img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: none;
+    }
+    
+    .novidade1, .novidade2, .novidade3, .novidade4 {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .novidades-grid h2 {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .primeira-secao {
+        margin-top: 8rem;
+    }
+    
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .conteudo {
+        grid-column: 1 / -1;
+    }
+
+    #pagina-contato {
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+    }
+
+    .contato-main h1 {
+        font-size: 2.5rem;
+    }
+
+    .contato-main p {
+        font-size: 1rem;
+    }
+    
+    .btn-enviar {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 2rem 1.5rem;
+        gap: 2rem;
+    }
+    
+    .logo img:first-child {
+        width: 40px;
+    }
+
+    .logo img:last-child {
+        width: 150px;
+    }
+
+    .form-group label {
+        font-size: 0.75rem;
+    }
+
+    button[type="submit"] {
+        padding: 0.9rem;
+    }
+}
