@@ -11,6 +11,7 @@
     --black: #000000;
     --gray: #F2F2F2;
     --dark-blue: #00001A;
+    --yellow: #e9aa52;
 }
 
 
@@ -77,6 +78,11 @@ body.escurecer::before{
     font-size: 2.5rem;
     font-weight: 400rem;
     text-transform: uppercase;
+}
+
+.header-desktop nav a:hover{
+    color: var(--yellow);
+    transition: 0.5s;
 }
 
 .container{
